@@ -1,0 +1,13 @@
+sales-forecasting-model/
+├── data/                  # Sample datasets (anonymized)
+│   └── sales_sample.csv
+├── notebooks/             # Jupyter notebooks for EDA
+│   └── EDA.ipynb
+├── models/                # Saved models
+│   └── sales_forecast_model.pkl
+├── api.py                 # FastAPI code
+├── train_model.py         # Model training
+├── preprocess.py          # Data cleaning
+├── Dockerfile             # Container setup
+├── requirements.txt       # Dependencies
+└── README.md              # Project documentation
